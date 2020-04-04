@@ -50,7 +50,7 @@ public class Program {
 		}
 
 		System.out.println("\n------------------------\nList of Employees:\n------------------------");
-		
+
 		for (Employee list : employee) {
 			System.out.print(list);
 		}
