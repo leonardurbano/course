@@ -12,8 +12,9 @@ public class Program {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 
-		Triangle x = new Triangle();
-		Triangle y = new Triangle();
+		Triangle x, y;
+		x = new Triangle();
+		y = new Triangle();
 
 		System.out.println("Enter the messures of triangle X: ");
 		x.a = sc.nextDouble();
